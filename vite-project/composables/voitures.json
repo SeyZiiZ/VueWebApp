@@ -1,0 +1,66 @@
+[
+    {
+        "image": "RS3WHITE.jpg",
+        "name": "Audi RS3",
+        "subtitle": "250€ / jour",
+        "content": "L'Audi RS3 est une compacte sportive haut de gamme, équipée d'un moteur 5 cylindres 2.5 TFSI délivrant 400 chevaux. Elle accélère de 0 à 100 km/h en seulement 3,8 secondes et atteint une vitesse de pointe de 290 km/h avec le pack RS Dynamic.",
+        "isAvailable": false,
+        "timesRented": 45
+    },
+    {
+        "image": "MercedesA45S.png",
+        "name": "Mercedes A45S AMG",
+        "subtitle": "300€ / jour",
+        "content": "La Mercedes-AMG A45 S est une compacte sportive de luxe, dotée d'un moteur 4 cylindres 2.0 turbo développant 421 chevaux. Elle réalise le 0 à 100 km/h en seulement 3,9 secondes et peut atteindre une vitesse de pointe de 270 km/h avec le pack AMG Driver's, une véritable expérience !",
+        "isAvailable": false,
+        "timesRented": 52
+    },
+    {
+        "image": "BMWM3G80.jpg",
+        "name": "BMW M3",
+        "subtitle": "400€ / jour",
+        "content": "La BMW M3 G80 est une berline sportive d'exception, équipée d'un moteur 6 cylindres en ligne 3.0 biturbo développant 510 chevaux dans sa version Competition. Elle passe de 0 à 100 km/h en seulement 3,9 secondes et atteint une vitesse de pointe de 290 km/h avec le pack M Driver's.",
+        "isAvailable": true,
+        "timesRented": 38
+    },
+    {
+        "image": "RS6.png",
+        "name": "Audi RS6",
+        "subtitle": "550€ / jour",
+        "content": "L'Audi RS6 continue de repousser les limites de la sportivité, propulsée par un V8 biturbo de 4.0 litres et 600 chevaux. Elle atteint 100 km/h en 3,6 secondes, tout en offrant le confort et l'élégance typiques d'Audi. Ce modèle combine parfaitement le luxe et l'efficacité, conçu pour les longs trajets et les virées sportives.",
+        "isAvailable": true,
+        "timesRented": 30
+    },
+    {
+        "image": "GOLF8R.png",
+        "name": "Volkswagen Golf 8R",
+        "subtitle": "300€ / jour",
+        "content": "La Volkswagen Golf 8R est une compacte sportive dotée d'un moteur 2.0 litres turbo développant 320 chevaux. Grâce à sa transmission intégrale et son accélération de 0 à 100 km/h en 4,7 secondes, elle offre une conduite dynamique et précise, idéale pour les amateurs de performance au quotidien et ainsi que les pilotes les plus aguerris.",
+        "isAvailable": false,
+        "timesRented": 60
+    },
+    {
+        "image": "C63AMG.png",
+        "name": "Mercedes C63 AMG 2023",
+        "subtitle": "350€ / jour",
+        "content": "La Mercedes-AMG C63 2023 marque un tournant avec son nouveau moteur hybride 2.0 litres turbo à 4 cylindres, couplé à un moteur électrique, délivrant une puissance impressionnante de 680 chevaux. Cette révolution technique permet un 0 à 100 km/h en seulement 3,4 secondes, tout en conservant le luxe et le confort emblématiques d'AMG.",
+        "isAvailable": false,
+        "timesRented": 28
+    },
+    {
+        "image": "AudiRSQ3.webp",
+        "name": "Audi RSQ3",
+        "subtitle": "320€ / jour",
+        "content": "L'Audi RSQ3 est un SUV compact ultra-performant, équipé d'un moteur 5 cylindres 2.5 litres turbo délivrant 400 chevaux. Avec une accélération de 0 à 100 km/h en seulement 4,5 secondes et sa transmission intégrale quattro, ce modèle combine agilité, puissance, et confort dans un format sportif et polyvalent afin de satisfaire les plus intransigeants.",
+        "isAvailable": false,
+        "timesRented": 33
+    },
+    {
+        "image": "BMW135I.png",
+        "name": "BMW 135i",
+        "subtitle": "310€ / jour",
+        "content": "La BMW 135i est une compacte sportive dotée d'un moteur 2.0 litres turbo de 4 cylindres développant 306 chevaux. Avec sa transmission intégrale xDrive et une accélération de 0 à 100 km/h en 4,8 secondes, elle offre une conduite précise et dynamique, idéale pour ceux qui recherchent sportivité et performance au quotidien.",
+        "isAvailable": true,
+        "timesRented": 41
+    }
+]
