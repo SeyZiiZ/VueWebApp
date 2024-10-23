@@ -1,5 +1,31 @@
-# Vue 3 + Vite
+# Full Stack Web App
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Description
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+This project is a full stack web application using the following technologies:
+
+- **Frontend**: Vue.js with PrimeVue for UI components
+- **Backend**: Node.js and Express.js for the server
+- **Database**: SQLite
+
+### Security Note
+
+This project is designed with ease of development in mind and may contain obvious security vulnerabilities. Do not use this in production without implementing proper security measures.
+
+## Prerequisites
+
+Before starting the project, make sure you have installed:
+
+- [Node.js](https://nodejs.org/)
+- [Vue CLI](https://cli.vuejs.org/)
+
+## Installation
+
+1. Clone this repository to your machine.
+2. Navigate to the project directory.
+3. Install the project dependencies by running the following command in the root folder:
+
+   ```bash
+   npm install
+   npm run dev (for front)
+   node server.js (for back)
