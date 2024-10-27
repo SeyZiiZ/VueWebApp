@@ -7,6 +7,7 @@ import Contact from './Contact.vue';
 import AdminDashboard from './AdminDashboard.vue'
 import Register from './Register.vue';
 import path from 'path';
+import { jwtDecode } from "jwt-decode";
 
 const routes = [
     {
@@ -43,7 +44,7 @@ const routes = [
         path: '/dashboard/admin',
         name: 'Admin Dashboard',
         component: AdminDashboard,
-        meta: {requiresAuth: true}
+        meta: {requiresAuth: true, requireAdmin: true}
     },
     {
         path: '/:pathMatch(.*)*',
@@ -63,13 +64,31 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from, next) => {
-    const isAuthenticated = localStorage.getItem('token');
+    const token = localStorage.getItem('token');
+    let isAuthenticated = false;
+    let isAdmin = false;
+
+    if (token) {
+        try {
+            const decodedToken = jwtDecode(token);
+            isAuthenticated = true;
+            isAdmin = decodedToken.isAdmin === 1;
+        } catch (err) {
+            console.log(`Error during decoding the JWT: ${err}`);
+        }
+    }
 
     if (to.matched.some(record => record.meta.requiresAuth) && !isAuthenticated) {
         next('/Login');
-    } else {
-        next();
+        return;
     }
+
+    if ((to.path === '/Dashboard/Admin' || to.path === '/dashboard/admin') && isAdmin === false) {
+        next('/dashboard');
+        return;
+    }
+
+    next();
 });
 
 export default router;
